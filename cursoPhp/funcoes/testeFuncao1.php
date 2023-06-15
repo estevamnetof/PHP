@@ -5,6 +5,7 @@
     //Fim do Cabeçalho
 
     include "funcoes.php";
+    include "funcoes-estevam.php";
 
     // Corpo da página    
     echo "<br>";
@@ -19,7 +20,8 @@
     $resultadoArray = retornaArrayDeValores();
     echo "O resultado da função retornaArray é $resultadoArray[1] <br>";
 
-
+    print('Aqui é uma string impressa com print');
+    printf('Aqui é uma string impressa com print. Tá aqui o parâmetro: %s %s', 'Estevam', 'Professor Jefferson');
 
     //Fim Corpo da página
 
